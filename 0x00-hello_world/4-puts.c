@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /*
- * main - This is the function of the program
+ * main- This is the function of the program. 
  * Return: Always 0.
  */
 
