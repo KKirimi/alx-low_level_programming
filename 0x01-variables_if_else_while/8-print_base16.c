@@ -16,11 +16,10 @@ int main(void)
 		putchar(c);
 	}
 
-	for (c = 'a'; c <= 'f'; c++)
+	for (c = 'a'; c <= 'e'; c++)
 	{
 		putchar(c);
 	}
-
 	putchar(c);
 	
 	return (0);
