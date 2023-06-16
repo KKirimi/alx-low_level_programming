@@ -2,18 +2,21 @@
 
 /**
  * main - Entry point
+ *
  * Return: Always (Success)
  */
 
 int main(void)
-
 {
-	char c;
+	char n;
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-	
+	for (n = '0'; n <= '9'; n++
+
+	{
+		putchar(n);
+	}
+
 	putchar('\n');
-	return (0);
 
+	return (0);
 }
