@@ -1,11 +1,10 @@
 #include<stdio.h>
 
 /**
- * Main - Prints 3 combination of numbers
+ * Main - Entry point
  *
  * Return: Always (Success)
  */
-
 int main(void)
 {
 	int c, i, k;
