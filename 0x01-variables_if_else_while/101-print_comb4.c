@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * Main - Entry point
+ * Main - Prints 3 combination of numbers
  *
  * Return: Always (Success)
  */
