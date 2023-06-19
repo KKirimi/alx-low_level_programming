@@ -1,7 +1,8 @@
 #include<stdio.h>
 
 /*
- * main - Entry point
+ * main- Entry point
+ *
  * Return: Always (Success)
  */
 
@@ -23,5 +24,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
 }
