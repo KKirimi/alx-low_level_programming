@@ -8,4 +8,5 @@ int convert_day(int month, int day);
 int _islower(int c);
 int _isalpha(int c);
 int _putchar(int c);
+int print_sign(int n);
 #endif
