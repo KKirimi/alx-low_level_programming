@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - checks for alphabetic character
- * @c: character to be checked
+ * @n: character to be checked
  * Return: 1 for alphabetic character or 0 for anything else
  */
 int print_sign(int n)
