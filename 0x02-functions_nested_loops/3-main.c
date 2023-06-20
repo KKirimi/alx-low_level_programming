@@ -8,7 +8,6 @@
 int main(void)
 {
     int r;
-
     r = _islower('H');
     putchar(r + '0');
     r = _islower('o');
