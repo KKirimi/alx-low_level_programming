@@ -3,7 +3,6 @@
 /**
  * print_diagonal - draws a diagonal line
  * @n: the number of times the characted should be printed
- * Return: void
  */
 
 void print_diagonal(int n)
@@ -25,6 +24,7 @@ void print_diagonal(int n)
 				else if (j < i)
 					_putchar(' ');
 			}
+			_putchar('\n');
 		}
 	}
 }
