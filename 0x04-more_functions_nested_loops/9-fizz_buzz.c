@@ -4,7 +4,7 @@
 /**
  * main - prints numbers from 1 to 100 but for multiples of three prints Fizz
  * and for multiples of five prints Buzz
- * Return: 0
+ * Return: 0(Success)
  */
 int main(void)
 {
