@@ -4,7 +4,7 @@
  * string_toupper - a function that changes all lowercase letters 
  * of a string to uppercase
  * @p: String to be modified
- * Return: char var
+ * Return: a string with uppercase letters
  */
 
 char *string_toupper(char *p)
