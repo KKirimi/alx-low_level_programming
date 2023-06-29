@@ -32,18 +32,18 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		_putchar('-');
+		putchar('-');
 		n *= -1;
 	}
 	if (n == 0)
-		_putchar('0');
+		putchar('0');
 	else
 	{
 		while (n / bigNum == 0)
 			bigNum /= 10;
 		while (bigNum >= 1)
 		{
-			_putchar((n / bigNum) + '0');
+			putchar((n / bigNum) + '0');
 			n %= bigNum;
 			bigNum /= 10;
 		}
