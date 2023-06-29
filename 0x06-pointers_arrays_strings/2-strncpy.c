@@ -5,6 +5,7 @@
  * @dest: destination value
  * @src: source value
  * @n: copy limit
+ * Return: value
  */
 
 char *_strncpy(char *dest, char *src, int n)
