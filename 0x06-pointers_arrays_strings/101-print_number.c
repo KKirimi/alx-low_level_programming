@@ -1,24 +1,51 @@
 #include "stdio.h"
 
 /**
-  * print_number - Prints any integer with putchar
-  * @n: Number to prints
-  * Return: 0
-  */
+ * big_number - big number function
+ * @a: input
+ * Description: big number function
+ * Return: 0
+ */
+
+int big_number(int a)
+{
+	int bignum = 10;
+
+	while (a > 0)
+	{
+		bignum *= 10;
+		a--;
+	}
+	return (bignum);
+}
+
+/**
+ * print_number - check main
+ * @n: input
+ * Description: function print_number
+ * Return: 0
+ */
+
 void print_number(int n)
 {
-	unsigned int x;
+	int bigNum = big_number(8);
 
 	if (n < 0)
 	{
-		putchar('-');
+		_putchar('-');
 		n *= -1;
 	}
-
-	x = n;
-
-	if (x / 10)
-		print_number(x / 10);
-
-	putchar(x % 10 + '0');
+	if (n == 0)
+		_putchar('0');
+	else
+	{
+		while (n / bigNum == 0)
+			bigNum /= 10;
+		while (bigNum >= 1)
+		{
+			_putchar((n / bigNum) + '0');
+			n %= bigNum;
+			bigNum /= 10;
+		}
+	}
 }
