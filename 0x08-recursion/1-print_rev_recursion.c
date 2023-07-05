@@ -8,16 +8,15 @@
  * Return: a string in reverse
  */
 
-void _print_rev_recursion
+void _print_rev_recursion(char *s)
 {
-	char *s[5];
+	if (*s == '\0')
+	{
+		return;
+	}
 
-	printf("\n");
-	gets(*s);
-
-	strrev(s);
-
-	printf("%s \n", *s);
-
-	return 0;
+	s++;
+	_print_rev_recursion(s);
+	s--;
+	_putchar(*s);
 }
