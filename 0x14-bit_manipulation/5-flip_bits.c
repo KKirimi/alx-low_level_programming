@@ -16,8 +16,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	for (k = 0; n || m; n >>= 1, m >>= 1)
 	{
 		if ((n & 1) != (m & 1))
-			k;
 	}
-
 	return (k);
 }
