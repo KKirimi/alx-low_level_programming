@@ -4,7 +4,8 @@
  * binary_to_uint - a function that converts a binary number to an unsigned int
  * @b: points to a string of 0 and 1 chars
  *
- * Return: the converted number or 0 if there is one or more chars in the string b that is
+ * Return: the converted number or 0 if there is one or more chars
+ * in the string b that is
  * not 0 or 1
  */
 
